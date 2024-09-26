@@ -1,4 +1,6 @@
-Import pickle
+import pickle
+import streamlit as st
+import pandas as pd
 # Load the trained Lasso model
 filename_lasso = 'lasso_regression_model.sav'
 lasso_model = pickle.load(open(filename_lasso, 'rb'))
