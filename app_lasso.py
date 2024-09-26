@@ -23,6 +23,3 @@ if st.button("Predict"):
 
 # You can add more elements and features to your Streamlit app as needed.
 # For example, you could display charts, tables, or upload your own data.
-
-
-!streamlit run app_lasso.py & npx localtunnel --port 8501
